@@ -1,0 +1,16 @@
+{
+  "components": [
+    "./src/app/components/ant-autocomplete/ant-autocomplete.component.ts",
+    "./src/app/components/ant-button/ant-button.component.ts",
+    "./src/app/components/ant-checkbox/ant-checkbox.component.ts",
+    "./src/app/components/ant-collapse/ant-collapse.component.ts",
+    "./src/app/components/ant-datepicker/ant-datepicker.component.ts",
+    "./src/app/components/ant-input/ant-input.component.ts",
+    "./src/app/components/ant-progress/ant-progress.component.ts",
+    "./src/app/components/ant-radio/ant-radio.component.ts",
+    "./src/app/components/ant-select/ant-select.component.ts",
+    "./src/app/components/ant-slider/ant-slider.component.ts",
+    "./src/app/components/ant-switch/ant-switch.component.ts",
+    "./src/app/components/ant-textarea/ant-textarea.component.ts"
+  ]
+}

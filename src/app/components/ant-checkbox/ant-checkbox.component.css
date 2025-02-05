@@ -1,0 +1,8 @@
+.ant-checkbox-container {
+  display: flex;
+  align-items: center;
+}
+
+.ant-checkbox-label {
+  margin: 0 8px; /* Adjust the spacing between label and checkbox */
+}

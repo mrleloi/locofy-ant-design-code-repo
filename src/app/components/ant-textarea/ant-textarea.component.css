@@ -1,0 +1,6 @@
+/* Custom styles for the input component can go here */
+.ant-input-hint {
+  color: #888;
+  font-size: 12px;
+  margin-top: 4px;
+}

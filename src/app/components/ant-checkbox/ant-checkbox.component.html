@@ -1,0 +1,12 @@
+<div [ngClass]="className" class="ant-checkbox-container">
+    <label *ngIf="label && labelPosition === 'left'" class="ant-checkbox-label">
+        {{ label }}
+    </label>
+
+    <label nz-checkbox [ngModel]="checked" (ngModelChange)="onCheckedChange($event)" [nzDisabled]="disabled">
+    </label>
+
+    <label *ngIf="label && labelPosition === 'right'" class="ant-checkbox-label">
+        {{ label }}
+    </label>
+</div>

@@ -1,0 +1,7 @@
+<nz-progress *ngIf="type === 'line'" [nzPercent]="percent" [nzStrokeWidth]="strokeWidth" [nzFormat]="format"
+    [nzShowInfo]="showInfo" [nzStatus]="status" [nzStrokeColor]="strokeColor">
+</nz-progress>
+
+<nz-progress *ngIf="type === 'circle'" [nzPercent]="percent" [nzStrokeWidth]="strokeWidth" [nzGapDegree]="gapDegree"
+    [nzShowInfo]="showInfoCircle" [nzStatus]="status" [nzStrokeColor]="strokeColor" [nzType]="'circle'">
+</nz-progress>

@@ -1,0 +1,12 @@
+<div [ngClass]="className">
+    <nz-input-group>
+        <textarea nz-input [rows]="rows" [placeholder]="placeholder" [ngModel]="value"
+            (ngModelChange)="onValueChange($event)" [disabled]="disabled" [attr.aria-label]="ariaLabel">
+      </textarea>
+    </nz-input-group>
+
+    <!-- Hint -->
+    <ng-container *ngIf="hint">
+        <div class="ant-input-hint">{{ hint }}</div>
+    </ng-container>
+</div>

@@ -1,0 +1,7 @@
+<nz-date-picker [nzDisabled]="disabled" [nzPlaceHolder]="placeholder" [nzFormat]="'yyyy-MM-dd'" *ngIf="mode === 'date'"
+    [nzMode]="getPickerMode()">
+</nz-date-picker>
+
+<nz-date-picker [nzDisabled]="disabled" [nzPlaceHolder]="placeholder" [nzFormat]="'yyyy-MM-dd HH:mm:ss'" nzShowTime
+    *ngIf="mode === 'date-time'">
+</nz-date-picker>

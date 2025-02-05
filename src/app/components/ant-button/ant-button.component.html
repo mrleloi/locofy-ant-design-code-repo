@@ -1,0 +1,8 @@
+<button nz-button [ngClass]="className" [nzType]="type" [disabled]="disabled" [attr.aria-label]="ariaLabel"
+    (click)="onClick($event)">
+    <!-- Icon on the left -->
+    <i *ngIf="iconPosition === 'left'" nz-icon [nzType]="iconName"></i>
+    {{ label }}
+    <!-- Icon on the right -->
+    <i *ngIf="iconPosition === 'right'" nz-icon [nzType]="iconName"></i>
+</button>

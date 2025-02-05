@@ -1,0 +1,23 @@
+<div [ngClass]="className">
+    <nz-input-group [nzPrefix]="prefixTemplate" [nzSuffix]="suffixTemplate">
+
+        <input nz-input [placeholder]="placeholder" [ngModel]="value" (ngModelChange)="onValueChange($event)"
+            [disabled]="disabled" [attr.aria-label]="ariaLabel" />
+
+    </nz-input-group>
+
+    <!-- Prefix Template -->
+    <ng-template #prefixTemplate>
+        <i nz-icon [nzType]="iconNameLeft"></i>
+    </ng-template>
+
+    <!-- Suffix Template -->
+    <ng-template #suffixTemplate>
+        <i nz-icon [nzType]="iconNameRight"></i>
+    </ng-template>
+
+    <!-- Hint -->
+    <ng-container *ngIf="hint">
+        <div class="ant-input-hint">{{ hint }}</div>
+    </ng-container>
+</div>

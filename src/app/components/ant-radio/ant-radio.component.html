@@ -1,0 +1,13 @@
+<div [ngClass]="className">
+    <label *ngIf="label && labelPosition === 'left'">
+        {{ label }}
+    </label>
+
+    <label nz-radio [ngModel]="checked" (ngModelChange)="onCheckedChange($event)" [nzValue]="value"
+        [nzDisabled]="disabled">
+    </label>
+
+    <label *ngIf="label && labelPosition === 'right'">
+        {{ label }}
+    </label>
+</div>
